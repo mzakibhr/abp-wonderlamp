@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WondeLamp : Wonderful Lampung</title>
+    <link rel="icon" href="image\Wonderlamp.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/0.0.0-insiders.4a070ac/tailwind.min.css">
     <!-- <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.1/dist/tailwind.min.css" rel="stylesheet" type="text/css" /> -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@1.10.0/dist/full.css" rel="stylesheet" type="text/css" />
@@ -22,8 +23,8 @@
             <span class="ml-3 text-xl">Wonderful Lampung</span>
         </a>
         <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
-            <a href="#intro" class="mr-10 hover:text-white-900">Introduction</a>
-            <a href="#photo" class="mr-10 hover:text-white-900">Gallery</a>
+            <a href="#intro" class="mr-10 hover:text-white-900">Tentang</a>
+            <a href="#photo" class="mr-10 hover:text-white-900">Galeri</a>
             <a href="#contact" class="mr-10 hover:text-white-900">Peta</a>
         </nav>
         <!-- <button class="w-32 p-2 rounded-2xl focus:outline-none bg-red-200 " onclick="search()">Search</button> -->
@@ -35,7 +36,7 @@
     <div class="mainitems w-full h-full">
         <div class="container_f1">
             <form name="f1" class="f1">
-                <img class="image1" name="image1" src="https://source.unsplash.com/2480x1080/?india,monuments" alt=""></img>
+                <img class="image1" name="image1" alt=""></img>
             </form>
         </div>
 
@@ -94,7 +95,7 @@
                                 <h1 class="title-font text-lg font-medium text-white-900 mb-3">Pulau Pahawang</h1>
                                 <p class="leading-relaxed mb-3">Assam is a state in northeastern India known for its wildlife, archeological sites and tea plantations. In the west, Guwahati, Assam’s largest city, features silk bazaars and the Kamakhya Temple.</p>
                                 <div class="flex items-center flex-wrap ">
-                                    <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                                    <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0" href="/pulaupahawang">Learn More
                                         <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                             <path d="M5 12h14"></path>
                                             <path d="M12 5l7 7-7 7"></path>
@@ -376,70 +377,27 @@
         </div>
         <div class="flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left text-center order-first">
             <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-                <h2 class="title-font font-extrabold text-white-900 underline font-serif tracking-widest text-sm mb-3">State Tourism Websites</h2>
+                <h2 class="title-font font-extrabold text-white-900 font-serif tracking-widest text-sm mb-3">Kontak Kami</h2>
                 <nav class="list-none mb-10">
                     <li>
-                        <a href="https://www.gujarattourism.com/" class="text-white-600 hover:text-white-800">Gujrat</a>
+                        <a href="https://www.gujarattourism.com/" class="text-white-600 hover:text-white-800">Telp : (021)-82512732</a>
                     </li>
                     <li>
-                        <a href="https://uttarakhandtourism.gov.in/" class="text-white-600 hover:text-white-800">Uttrakhand</a>
+                        <a href="https://uttarakhandtourism.gov.in/" class="text-white-600 hover:text-white-800">WA : 0823-8971-2400</a>
                     </li>
                     <li>
-                        <a href="http://megtourism.gov.in/" class="text-white-600 hover:text-white-800">Meghalaya</a>
+                        <a href="http://megtourism.gov.in/" class="text-white-600 hover:text-white-800">Senin - Minggu</a>
                     </li>
                     <li>
-                        <a href="https://www.mptourism.com/" class="text-white-600 hover:text-white-800">Madhya Pradhesh</a>
+                        <a href="https://www.mptourism.com/" class="text-white-600 hover:text-white-800">24 Jam Non Stop</a>
                     </li>
                 </nav>
             </div>
             <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-                <h2 class="title-font font-medium text-white-900 tracking-widest text-sm mb-3">&emsp;</h2>
+                <h2 class="title-font font-extrabold text-white-900 font-serif tracking-widest text-sm mb-3">Alamat</h2>
                 <nav class="list-none mb-10">
                     <li>
-                        <a href="https://www.keralatourism.org/" class="text-white-600 hover:text-white-800">Kerela</a>
-                    </li>
-                    <li>
-                        <a href="https://wbtourism.gov.in/" class="text-white-600 hover:text-white-800">West Bengal</a>
-                    </li>
-                    <li>
-                        <a href="http://www.uptourism.gov.in/" class="text-white-600 hover:text-white-800">Uttar Pradesh</a>
-                    </li>
-                    <li>
-                        <a href="https://tourism.bihar.gov.in/" class="text-white-600 hover:text-white-800">Bihar</a>
-                    </li>
-                </nav>
-            </div>
-            <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-                <h2 class="title-font font-medium text-white-900 tracking-widest text-sm mb-3">&emsp;</h2>
-                <nav class="list-none mb-10">
-                    <li>
-                        <a href="https://tourism.assam.gov.in/" class="text-white-600 hover:text-white-800">Assam</a>
-                    </li>
-                    <li>
-                        <a href="https://haryanatourism.gov.in/" class="text-white-600 hover:text-white-800">Haryana</a>
-                    </li>
-                    <li>
-                        <a href="http://punjabtourism.gov.in/" class="text-white-600 hover:text-white-800">Punjab</a>
-                    </li>
-                    <li>
-                        <a href="http://www.tamilnadutourism.org/" class="text-white-600 hover:text-white-800">Tamil Nadu</a>
-                    </li>
-                </nav>
-            </div>
-            <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-                <h2 class="title-font font-extrabold underline text-white-900 font-serif tracking-widest text-sm mb-3">Union Territory Tourism</h2>
-                <nav class="list-none mb-10">
-                    <li>
-                        <a href="http://www.delhitourism.gov.in/delhitourism/index.jsp" class="text-white-600 hover:text-white-800">Delhi</a>
-                    </li>
-                    <li>
-                        <a href="https://www.andaman.gov.in/" class="text-white-600 hover:text-white-800">Andaman Nicobar</a>
-                    </li>
-                    <li>
-                        <a href="https://www.lakshadweeptourism.com/" class="text-white-600 hover:text-white-800">Lakshwadweep</a>
-                    </li>
-                    <li>
-                        <a href="http://www.pondytourism.in/" class="text-white-600 hover:text-white-800">Pudducherry</a>
+                        <a class="text-white-600 hover:text-white-800">Terbanggi Ilir, Bandar Mataram, Central Lampung Regency, Lampung</a>
                     </li>
                 </nav>
             </div>

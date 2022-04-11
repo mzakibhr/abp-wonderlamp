@@ -10,15 +10,19 @@ body::-webkit-scrollbar{
     width: 0;
 }
 .container_f1{
-    display: flex;
-    width: 100vw;
+    position: relative;
     height: 90vh;
-    justify-content: center;
+    align-content: center;
 }
 
 .f1 .image1{
-    width: stretch;
-    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90vh ;
+    object-fit: cover;
+    object-position: 83%;
 }
 h1{
     display: flex;
@@ -93,3 +97,4 @@ h1{
     padding: 2px;
     font-size: 18px;
 }
+

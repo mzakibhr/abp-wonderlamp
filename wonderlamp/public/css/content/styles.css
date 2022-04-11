@@ -16,7 +16,7 @@ body::-webkit-scrollbar{
 .navbar,.head{
     min-width:300 !important;
     user-select: none;
-    background-color: rgb(97, 138, 214);
+    background-color: black;
 }
 
 .carosel{
