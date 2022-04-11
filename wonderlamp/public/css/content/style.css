@@ -37,7 +37,6 @@ body::-webkit-scrollbar{
 }
 
 .img::before{
-    content: "KOLKATA";
     position: absolute;
     color: rgb(255, 255, 255);
     top: 45%;
@@ -47,7 +46,6 @@ body::-webkit-scrollbar{
     font-size:4.5em;
 }
 .img::after{
-    content: "The City Of Joy";
     position: absolute;
     color: rgb(255, 255, 255);
     top:55%;

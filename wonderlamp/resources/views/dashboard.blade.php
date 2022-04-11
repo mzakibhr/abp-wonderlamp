@@ -125,7 +125,7 @@
                                 <h1 class="title-font text-lg font-medium text-white-900 mb-3">Taman Nasional Way Kambas</h1>
                                 <p class="leading-relaxed mb-3">Uttarakhand, a state in northern India crossed by the Himalayas, is known for its Hindu pilgrimage sites. Rishikesh, a major centre for yoga study, was made famous by the Beatles’ 1968 visit.</p>
                                 <div class="flex items-center flex-wrap">
-                                    <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0" href="./Pages/Uttarakhand.html">Learn More
+                                    <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0" href="/waykambas">Learn More
                                         <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                             <path d="M5 12h14"></path>
                                             <path d="M12 5l7 7-7 7"></path>
@@ -155,7 +155,7 @@
                                 <h1 class="title-font text-lg font-medium text-white-900 mb-3">Pantai Karang Gigi Hiu</h1>
                                 <p class="leading-relaxed mb-3">Meghalaya is a state in Northeast India. Meghalaya was formed by carving out two districts from the state of Assam: the United Khasi Hills and Jaintia Hills, and the Garo Hills on 21 January 1972.</p>
                                 <div class="flex items-center flex-wrap ">
-                                    <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0" href="./Pages/Meghalaya.html">Learn More
+                                    <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0" href="/gigihiu">Learn More
                                         <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                             <path d="M5 12h14"></path>
                                             <path d="M12 5l7 7-7 7"></path>
@@ -185,7 +185,7 @@
                                 <h1 class="title-font text-lg font-medium text-white-900 mb-3">Air Terjun Curup Gangsa</h1>
                                 <p class="leading-relaxed mb-3">Madhya Pradesh, a large state in central India, retains landmarks from eras throughout Indian history. Begun in the 10th century, its Hindu and Jain temples at Khajuraho.</p>
                                 <div class="flex items-center flex-wrap ">
-                                    <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                                    <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0" href="/curupgangsa">Learn More
                                         <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                             <path d="M5 12h14"></path>
                                             <path d="M12 5l7 7-7 7"></path>
@@ -217,7 +217,7 @@
                                 <h1 class="title-font text-lg font-medium text-white-900 mb-3">Gunung Pesagi</h1>
                                 <p class="leading-relaxed mb-3">Kerala, a state on India's tropical Malabar Coast, has nearly 600km of Arabian Sea shoreline. It's known for its palm-lined beaches and backwaters, a network of canals.</p>
                                 <div class="flex items-center flex-wrap ">
-                                    <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                                    <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0" href="/gunungpesagi">Learn More
                                         <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                             <path d="M5 12h14"></path>
                                             <path d="M12 5l7 7-7 7"></path>
@@ -247,7 +247,7 @@
                                 <h1 class="title-font text-lg font-medium text-white-900 mb-3">Teluk Kilauan</h1>
                                 <p class="leading-relaxed mb-3">Kolkata (formerly Calcutta) is the capital of India's West Bengal state. Founded as an East India Company trading post, it was India's capital under the British Raj from 1773–1911.</p>
                                 <div class="flex items-center flex-wrap">
-                                    <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0" href="./Pages/Kolkata.html">Learn More
+                                    <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0" href="/telukkilauan">Learn More
                                         <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                             <path d="M5 12h14"></path>
                                             <path d="M12 5l7 7-7 7"></path>
@@ -277,7 +277,7 @@
                                 <h1 class="title-font text-lg font-medium text-white-900 mb-3">Pantai Tanjung Setia</h1>
                                 <p class="leading-relaxed mb-3">Uttar Pradesh is a state in northern India. With over 200 million inhabitants, it is the most populous state in India as well as the most populous country subdivision in the world.</p>
                                 <div class="flex items-center flex-wrap ">
-                                    <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                                    <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0" href="/pantaitanjung">Learn More
                                         <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                             <path d="M5 12h14"></path>
                                             <path d="M12 5l7 7-7 7"></path>
@@ -307,7 +307,7 @@
                                 <h1 class="title-font text-lg font-medium text-white-900 mb-3">Danau Ranau</h1>
                                 <p class="leading-relaxed mb-3">Tamil Nadu, a South Indian state, is famed for its Dravidian-style Hindu temples. In Madurai, Meenakshi Amman Temple has high ‘gopuram’ towers ornamented with colourful figures.</p>
                                 <div class="flex items-center flex-wrap ">
-                                    <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                                    <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0" href="/danauranau">Learn More
                                         <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                             <path d="M5 12h14"></path>
                                             <path d="M12 5l7 7-7 7"></path>
