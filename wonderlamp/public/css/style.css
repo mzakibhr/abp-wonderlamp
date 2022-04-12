@@ -37,22 +37,20 @@ h1{
 .hide{
     display: none;
 }
-/* .search{
-    position: absolute;
-    margin-top: 0;
-    width: 70vw;
-    height: 50vh;
-    margin:10px 15vw;
-} */
 
 .logo{
     width: 140px;
     height: 110px;
-    /* border-radius: 50%; */
 }
+
+p{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
 .head{
  /* background-color: rgb(134, 134, 158); */
- margin-bottom: 20px;
+    margin-bottom: 20px;
 
 }
 .foot{
