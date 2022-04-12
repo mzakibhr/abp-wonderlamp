@@ -43,10 +43,6 @@ h1{
     height: 110px;
 }
 
-p{
-    text-align: justify;
-    text-justify: inter-word;
-}
 
 .head{
  /* background-color: rgb(134, 134, 158); */
@@ -61,6 +57,7 @@ p{
     width: 80%; 
     overflow: hidden;
     text-overflow: ellipsis; 
+    text-align: center;
 }
 
 .parachanged

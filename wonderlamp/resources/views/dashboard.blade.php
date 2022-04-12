@@ -44,17 +44,14 @@
             <div class="container px-5 py-24 mx-auto flex flex-wrap">
                 <div class="flex w-full mb-20 flex-wrap flex-col items-center">
                     <h1>Wonderful Lampung</h1>
-                    <p class="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base para" id="para">One of the oldest civilisations in the world
-                        India is a mosaic of multicultural experiences. With a rich heritage and myriad attractions,the country is
-                        among the most popular tourist destinations in the world.It covers an area of 32, 87,263 sq. km, extending from
-                        the snow-covered Himalayan heights to the tropical rain forests of the south. As the 7th largest country in the world, India stands
-                        apart from the rest of Asia, marked off as it is by mountains and the sea, which give the country a distinct geographical entity.
-                        Fringed by the Great Himalayas in the north, it stretches southwards and at the Tropic of Cancer, tapers off into the
-                        Indian Ocean between the Bay of Bengal on the east and the Arabian Sea on the west. As you travel the expanse of the country,
-                        you are greeted by diverse nuances of cuisines, faiths, arts, crafts, music, nature, lands, tribes, history and adventure sports.
-                        India has a mesmeric conflation of the old and the new. As the bustling old bazaars rub shoulders with swanky shopping malls, and
-                        majestic monuments accompany luxurious heritage hotels, the quintessential traveller can get the best of both worlds. Head to the
-                        mountains, enjoy a beach retreat or cruise through the golden Thar, India has options galore for all.</p>
+                    <p class="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base para paraw" id="para">Lampung adalah sebuah provinsi paling selatan di pulau Sumatra, Indonesia, dengan ibu kota atau pusat pemerintahan berada di kota Bandar Lampung.
+                        Provinsi ini memiliki dua kota yaitu kota Bandar Lampung dan kota Metro serta 13 kabupaten.
+                        Posisi provinsi Lampung secara geografis di sebelah Barat berbatasan dengan Samudra Hindia, di sebelah Timur dengan Laut Jawa,
+                        di sebelah Utara berbatasan dengan provinsi Sumatra Selatan, dan di sebelah Selatan berbatasan dengan Selat Sunda.
+                        Provinsi Lampung memiliki pelabuhan utama bernama Pelabuhan Panjang dan Pelabuhan Bakauheni,
+                        bandar udara utama yakni Radin Intan II terletak 28 km dari ibu kota provinsi,
+                        serta Stasiun Tanjung Karang di pusat ibu kota. Tahun 2020, penduduk provinsi Lampung berjumlah 9.007.848 jiwa, dengan kepadatan 268 jiwa/km.
+                    </p>
                     <button id="readmore" class="underline text-blue-500 p-2 w-28 m-1">Read more</button>
                 </div>
                 <div class="flex flex-wrap md:-m-2 -m-1">
@@ -380,16 +377,16 @@
                 <h2 class="title-font font-extrabold text-white-900 font-serif tracking-widest text-sm mb-3">Kontak Kami</h2>
                 <nav class="list-none mb-10">
                     <li>
-                        <a href="https://www.gujarattourism.com/" class="text-white-600 hover:text-white-800">Telp : (021)-82512732</a>
+                        <a class="text-white-600 hover:text-white-800">Telp : (021)-82512732</a>
                     </li>
                     <li>
-                        <a href="https://uttarakhandtourism.gov.in/" class="text-white-600 hover:text-white-800">WA : 0823-8971-2400</a>
+                        <a class="text-white-600 hover:text-white-800">WA : 0823-8971-2400</a>
                     </li>
                     <li>
-                        <a href="http://megtourism.gov.in/" class="text-white-600 hover:text-white-800">Senin - Minggu</a>
+                        <a class="text-white-600 hover:text-white-800">Senin - Minggu</a>
                     </li>
                     <li>
-                        <a href="https://www.mptourism.com/" class="text-white-600 hover:text-white-800">24 Jam Non Stop</a>
+                        <a class="text-white-600 hover:text-white-800">24 Jam Non Stop</a>
                     </li>
                 </nav>
             </div>
