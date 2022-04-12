@@ -12,12 +12,12 @@
 
 @section('detail')
 <div class="description">
-    Pantai Tanjung Setia adalah <span id="dots">...</span>
+    Pantai Tanjung Setia merupakan salah satu obyek wisata yang terletak di Provinsi Lampung.<span id="dots">...</span>
 
     <span id="more">
-        A union territory, the political administration of the NCT of Delhi today more closely resembles that of a state of India, with its own legislature, high court and an executive council of ministers headed by a Chief Minister. New Delhi is jointly administered by the federal government of India and the local government of Delhi, and serves as the capital of the nation as well as the NCT of Delhi. Delhi hosted the inaugural 1951 Asian Games, 1982 Asian Games, 1983 NAM Summit, 2010 Men's Hockey World Cup, 2010 Commonwealth Games, 2012 BRICS Summit and was one of the major host cities of the 2011 Cricket World Cup.
-
-        Delhi is also the centre of the National Capital Region (NCR), which is a unique 'interstate regional planning' area created by the National Capital Region Planning Board Act of 1985.
+        Pantai ini terkenal dengan ombaknya yang bagus untuk digunakan berselancar. Bahkan ombak di sini tingginya berkisar antara 6 – 7 meter. Selain itu, ombaknya pun sangat panjang, yaitu 200 meter
+        Surfing merupakan salah satu bentuk olahraga yang sangat cocok di lakukan di Pantai Tanjung Setia. Hal ini dikarenakan pantai ini terkenal dengan surfingnya sehingga Anda harus mengenal beberapa tempat yang menjadi spot terbaik untuk menyalurkan hobi Anda untuk surfing.
+        Berbagai fasilitas dan akomodasi yang disediakan di sekitar pantai tersebut antara lain adalah tempat bersantai, tempat berselancar dengan pilihan ombak yang tinggi hingga sedang. Selain itu, bagi Anda yang berasal dari luar kota maka Anda juga dapat menginap di hotel sekitar pantai.
     </span>
 </div>
 @endsection

@@ -12,12 +12,15 @@
 
 @section('detail')
 <div class="description">
-    Pulau Pahawang adalah <span id="dots">...</span>
+    Pulau Pahawang terkenal dengan keindahan pantai dan bawah lautnya. <span id="dots">...</span>
 
     <span id="more">
-        A union territory, the political administration of the NCT of Delhi today more closely resembles that of a state of India, with its own legislature, high court and an executive council of ministers headed by a Chief Minister. New Delhi is jointly administered by the federal government of India and the local government of Delhi, and serves as the capital of the nation as well as the NCT of Delhi. Delhi hosted the inaugural 1951 Asian Games, 1982 Asian Games, 1983 NAM Summit, 2010 Men's Hockey World Cup, 2010 Commonwealth Games, 2012 BRICS Summit and was one of the major host cities of the 2011 Cricket World Cup.
+        Sudah banyak yang mengakui pesonanya, baik wisatawan nusantara maupun wisatawan lokal Lampung
+        Pulau Pahawang masuk wilayah Kecamatan Punduh Pidada, Kabupaten Pesawaran, Provinsi Lampung. Tepatnya berada di Teluk Lampung.
 
-        Delhi is also the centre of the National Capital Region (NCR), which is a unique 'interstate regional planning' area created by the National Capital Region Planning Board Act of 1985.
+        Untuk bisa sampai di pulau, tidak memerlukan waktu berhari-hari. Sebab jaraknya tidak terlalu jauh dari Kota Bandar Lampung. Kalau lancar, hanya membutuhkan waktu sekitar 2 jam untuk tiba di pulau.
+        Banyak tidak mengetahui kalau Teluk Lampung memiliki banyak jenis ikan badut (clownfish). Sekali snorkeling, kalau beruntung, bisa menjumpai beberapa jenis ikan badut.
+        Ada ikan badut bewarna putih dengan corak bewarna oranye. Seperti yang pernah kamu tonton di film “Finding Nemo”. Juga ada clownfish warna dan corak lain di sini.
     </span>
 </div>
 @endsection

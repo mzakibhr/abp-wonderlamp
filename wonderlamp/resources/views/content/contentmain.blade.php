@@ -35,43 +35,44 @@
     <section class="text-gray-600 body-font">
         <div class="container px-5 py-24 mx-auto">
             <div class="flex flex-col text-center w-full mb-20">
-                <h1 class="sm:text-3xl text-5xl font-medium title-font mb-4 text-white">Attractions</h1>
-                <p class="lg:w-2/3 mx-auto leading-relaxed text-white text-3xl">Explore the colonial city of Delhi</p>
+                <h1 class="sm:text-3xl text-5xl font-medium title-font mb-4 text-white">Monumen di Lampung</h1>
             </div>
 
             <div class="flex flex-wrap -m-4">
                 <div class="lg:w-1/3 sm:w-2/3 p-4">
                     <div class="flex relative card-img">
-                        <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://media.istockphoto.com/photos/humayun-tomb-new-delhi-india-picture-id505239248?k=6&m=505239248&s=612x612&w=0&h=zWaM2foZitMueZtM1XOgxb5PoOxc6QkTNHdoHvArlVo=">
+                        <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://www.jejakpiknik.com/wp-content/uploads/2017/12/@jakaadypurnawarman-630x380.jpg">
                         <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                             <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">&emsp;
                             </h2>
-                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Humayun Tomb New Delhi</h1>
-                            <p class="leading-relaxed">Humayun's tomb is the tomb of the Mughal Emperor Humayun in Delhi, India.
+                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Menara Siger</h1>
+                            <p class="leading-relaxed">Menara Siger adalah menara yang juga menjadi titik nol SumatraGubernur Lampung Sjachroedin Z.P.
+                                dalam peresmian Menara Siger pada 30 April 2008, ia menyatakan optimistis Menara Siger akan mendorong kemajuan Lampung.
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="lg:w-1/3 sm:w-1/2 p-4">
                     <div class="flex relative card-img">
-                        <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://media.istockphoto.com/photos/humayuns-tomb-delhi-india-cngltrv1109-picture-id489343716?k=6&m=489343716&s=612x612&w=0&h=S7eZ-VrSVoblJakAiLUj-AWUel0kXtT9mZeBhoIh368=">
+                        <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://majalahteras.com/assets/images/2017/08/monumen-kopiah.jpg">
                         <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                             <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">&emsp;
                             </h2>
-                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Holden Caulfield</h1>
-                            <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
-                                microdosing tousled waistcoat.</p>
+                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Tugu Kopiah Emas</h1>
+                            <p class="leading-relaxed">Tugu Kopiah Emas ini dibangun di pinggir jalan lintas Sumatera di kota Gunung Sugih, kabupaten Lampung Tengah.
+                                Lokasinya berdampingan dengan Tugu Pengantin yang menampilkan sepasang pengantin pria dan wanita dalam balutan pakaian tradisional Lampung.</p>
                         </div>
                     </div>
                 </div>
                 <div class="lg:w-1/3 sm:w-1/2 p-4">
                     <div class="flex relative card-img">
-                        <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://media.istockphoto.com/photos/lotus-temple-picture-id517364023?k=6&m=517364023&s=612x612&w=0&h=ug3gev8JQrHIWfxrgg847DI6-2v6i6JHjtjig_fR87w=">
+                        <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://upload.wikimedia.org/wikipedia/commons/d/d6/Bundaran_Tugu_Adipura_Bandar_Lampung.JPG">
                         <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                             <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">&emsp;
                             </h2>
-                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Lotus Temple</h1>
-                            <p class="leading-relaxed">The Lotus Temple, located in Delhi, India, is a Bahai House of Worship that was dedicated in December 1986. </p>
+                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Tugu Adipura</h1>
+                            <p class="leading-relaxed">Tugu Adipura atau sering juga disebut Tugu Gajah adalah tugu yang terletak di jantung kota Bandar Lampung, Indonesia.
+                                Monumen ini berada antara perempatan Jalan Raden Intan, Jalan Jendral Sudirman, Jalan Diponegoro dan Jalan A Yani.</p>
                         </div>
                     </div>
                 </div>
@@ -93,16 +94,16 @@
                     <h2 class="title-font font-extrabold text-white-900 font-serif tracking-widest text-sm mb-3">Kontak Kami</h2>
                     <nav class="list-none mb-10">
                         <li>
-                            <a href="https://www.gujarattourism.com/" class="text-white-600 hover:text-white-800">Telp : (021)-82512732</a>
+                            <a class="text-white-600 hover:text-white-800">Telp : (021)-82512732</a>
                         </li>
                         <li>
-                            <a href="https://uttarakhandtourism.gov.in/" class="text-white-600 hover:text-white-800">WA : 0823-8971-2400</a>
+                            <a class="text-white-600 hover:text-white-800">WA : 0823-8971-2400</a>
                         </li>
                         <li>
-                            <a href="http://megtourism.gov.in/" class="text-white-600 hover:text-white-800">Senin - Minggu</a>
+                            <a class="text-white-600 hover:text-white-800">Senin - Minggu</a>
                         </li>
                         <li>
-                            <a href="https://www.mptourism.com/" class="text-white-600 hover:text-white-800">24 Jam Non Stop</a>
+                            <a class="text-white-600 hover:text-white-800">24 Jam Non Stop</a>
                         </li>
                     </nav>
                 </div>

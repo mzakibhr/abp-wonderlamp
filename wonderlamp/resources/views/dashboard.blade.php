@@ -90,7 +90,8 @@
                             <div class="p-6">
                                 <!-- <h2 class="tracking-widest text-xs title-font font-medium text-white-400 mb-1">CATEGORY</h2> -->
                                 <h1 class="title-font text-lg font-medium text-white-900 mb-3">Pulau Pahawang</h1>
-                                <p class="leading-relaxed mb-3">Assam is a state in northeastern India known for its wildlife, archeological sites and tea plantations. In the west, Guwahati, Assam’s largest city, features silk bazaars and the Kamakhya Temple.</p>
+                                <p class="leading-relaxed mb-3">Pulau Pahawang terkenal dengan keindahan pantai dan bawah lautnya.
+                                    Pulau Pahawang masuk wilayah Kecamatan Punduh Pidada, Kabupaten Pesawaran, Provinsi Lampung.</p>
                                 <div class="flex items-center flex-wrap ">
                                     <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0" href="/pulaupahawang">Learn More
                                         <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -120,7 +121,7 @@
                             <div class="p-6">
                                 <!-- <h2 class="tracking-widest text-xs title-font font-medium text-white-400 mb-1">CATEGORY</h2> -->
                                 <h1 class="title-font text-lg font-medium text-white-900 mb-3">Taman Nasional Way Kambas</h1>
-                                <p class="leading-relaxed mb-3">Uttarakhand, a state in northern India crossed by the Himalayas, is known for its Hindu pilgrimage sites. Rishikesh, a major centre for yoga study, was made famous by the Beatles’ 1968 visit.</p>
+                                <p class="leading-relaxed mb-3">Taman Nasional Way Kambas (TNWK) adalah taman nasional perlindungan gajah yang terletak di daerah Lampung tepatnya di Kecamatan Labuhan Ratu, Lampung Timur.</p>
                                 <div class="flex items-center flex-wrap">
                                     <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0" href="/waykambas">Learn More
                                         <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -150,7 +151,7 @@
                             <div class="p-6">
                                 <!-- <h2 class="tracking-widest text-xs title-font font-medium text-white-400 mb-1">CATEGORY</h2> -->
                                 <h1 class="title-font text-lg font-medium text-white-900 mb-3">Pantai Karang Gigi Hiu</h1>
-                                <p class="leading-relaxed mb-3">Meghalaya is a state in Northeast India. Meghalaya was formed by carving out two districts from the state of Assam: the United Khasi Hills and Jaintia Hills, and the Garo Hills on 21 January 1972.</p>
+                                <p class="leading-relaxed mb-3">Di pantai ini pengunjung dijamin akan terpana melihat barisan batu karang lancip yang tertata dan terbentuk secara alami. Setiap kali ombak menerpa batu tersebut, akan terdengar suara pesona pantai yang alami dan menenangkan diri.</p>
                                 <div class="flex items-center flex-wrap ">
                                     <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0" href="/gigihiu">Learn More
                                         <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -180,7 +181,7 @@
                             <div class="p-6">
                                 <!-- <h2 class="tracking-widest text-xs title-font font-medium text-white-400 mb-1"></h2> -->
                                 <h1 class="title-font text-lg font-medium text-white-900 mb-3">Air Terjun Curup Gangsa</h1>
-                                <p class="leading-relaxed mb-3">Madhya Pradesh, a large state in central India, retains landmarks from eras throughout Indian history. Begun in the 10th century, its Hindu and Jain temples at Khajuraho.</p>
+                                <p class="leading-relaxed mb-3">Air Terjun Curup Gangsa merupakan salah satu destinasi tempat wisata yang sangat populer di Way Kanan Lampung.</p>
                                 <div class="flex items-center flex-wrap ">
                                     <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0" href="/curupgangsa">Learn More
                                         <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -212,7 +213,7 @@
                             <div class="p-6">
                                 <!-- <h2 class="tracking-widest text-xs title-font font-medium text-white-400 mb-1">CATEGORY</h2> -->
                                 <h1 class="title-font text-lg font-medium text-white-900 mb-3">Gunung Pesagi</h1>
-                                <p class="leading-relaxed mb-3">Kerala, a state on India's tropical Malabar Coast, has nearly 600km of Arabian Sea shoreline. It's known for its palm-lined beaches and backwaters, a network of canals.</p>
+                                <p class="leading-relaxed mb-3">Gunung Pesagi adalah gunung tak aktif salah satu dari 5 Gunung bersejarah yang ada di provinsi Lampung, Indonesia.</p>
                                 <div class="flex items-center flex-wrap ">
                                     <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0" href="/gunungpesagi">Learn More
                                         <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -242,7 +243,7 @@
                             <div class="p-6">
                                 <!-- <h2 class="tracking-widest text-xs title-font font-medium text-white-400 mb-1">CATEGORY</h2> -->
                                 <h1 class="title-font text-lg font-medium text-white-900 mb-3">Teluk Kilauan</h1>
-                                <p class="leading-relaxed mb-3">Kolkata (formerly Calcutta) is the capital of India's West Bengal state. Founded as an East India Company trading post, it was India's capital under the British Raj from 1773–1911.</p>
+                                <p class="leading-relaxed mb-3">Teluk Kilauan merupakan surganya wisata bahari di Lampung tepatnya di Kabupaten Tenggamus, karena disini terdapat beberapa objek wisata yang sungguh mengagumkan. </p>
                                 <div class="flex items-center flex-wrap">
                                     <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0" href="/telukkilauan">Learn More
                                         <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -272,7 +273,7 @@
                             <div class="p-6">
                                 <!-- <h2 class="tracking-widest text-xs title-font font-medium text-white-400 mb-1">CATEGORY</h2> -->
                                 <h1 class="title-font text-lg font-medium text-white-900 mb-3">Pantai Tanjung Setia</h1>
-                                <p class="leading-relaxed mb-3">Uttar Pradesh is a state in northern India. With over 200 million inhabitants, it is the most populous state in India as well as the most populous country subdivision in the world.</p>
+                                <p class="leading-relaxed mb-3">Pantai Tanjung Setia merupakan salah satu obyek wisata yang terletak di Provinsi Lampung. Pantai ini terkenal dengan ombaknya yang bagus untuk digunakan berselancar.</p>
                                 <div class="flex items-center flex-wrap ">
                                     <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0" href="/pantaitanjung">Learn More
                                         <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -302,7 +303,7 @@
                             <div class="p-6">
                                 <!-- <h2 class="tracking-widest text-xs title-font font-medium text-white-400 mb-1">CATEGORY</h2> -->
                                 <h1 class="title-font text-lg font-medium text-white-900 mb-3">Danau Ranau</h1>
-                                <p class="leading-relaxed mb-3">Tamil Nadu, a South Indian state, is famed for its Dravidian-style Hindu temples. In Madurai, Meenakshi Amman Temple has high ‘gopuram’ towers ornamented with colourful figures.</p>
+                                <p class="leading-relaxed mb-3">Danau Ranau adalah danau terbesar kedua di Sumatra setelah Danau Toba. Danau ini terletak di perbatasan Kabupaten Lampung Barat Provinsi Lampung dan Kabupaten Ogan Komering Ulu Selatan.</p>
                                 <div class="flex items-center flex-wrap ">
                                     <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0" href="/danauranau">Learn More
                                         <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -354,7 +355,7 @@
                             <label for="message" class="leading-7 text-sm text-black">Pesan</label>
                             <textarea id="message" name="message" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-white-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
                         </div>
-                        <button class="text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg" onclick="contactUs()">Submit</button>
+                        <button class="text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Submit</button>
                     </form>
                 </div>
             </div>

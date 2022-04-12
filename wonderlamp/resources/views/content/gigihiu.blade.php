@@ -12,12 +12,13 @@
 
 @section('detail')
 <div class="description">
-    Pantai Karang Gigi Hiu adalah <span id="dots">...</span>
+    Wisata alam di Lampung diramaikan oleh pesona laut atau pantai <span id="dots">...</span>
 
     <span id="more">
-        A union territory, the political administration of the NCT of Delhi today more closely resembles that of a state of India, with its own legislature, high court and an executive council of ministers headed by a Chief Minister. New Delhi is jointly administered by the federal government of India and the local government of Delhi, and serves as the capital of the nation as well as the NCT of Delhi. Delhi hosted the inaugural 1951 Asian Games, 1982 Asian Games, 1983 NAM Summit, 2010 Men's Hockey World Cup, 2010 Commonwealth Games, 2012 BRICS Summit and was one of the major host cities of the 2011 Cricket World Cup.
-
-        Delhi is also the centre of the National Capital Region (NCR), which is a unique 'interstate regional planning' area created by the National Capital Region Planning Board Act of 1985.
+        Hal ini karena Lampung merupakan daerah paling selatan di Pulau Sumatera. Salah satunya Pantai Gigi Hiu di Kecamatan Kelumbayan, Kabupaten Tanggamus, Lampung.
+        Panorama yang disajikan Pantai Gigi Hiu, berbeda dengan pantai pada umumnya. Di pantai ini pengunjung dijamin akan terpana melihat barisan batu karang lancip yang tertata dan terbentuk secara alami. Setiap kali ombak menerpa batu tersebut, akan terdengar suara pesona pantai yang alami dan menenangkan diri.
+        Di Pantai Gigi Hiu, kurang ideal untuk kegiatan bahari seperti berenang atau snorkeling karena ombaknya cukup besar dan dipenuhi karang-karang tajam. Jika hendak berenang, bisa mencari spot dengan ombak yang lebih tenang.
+        Dengan panorama yang begitu alami, pantai Gigi Hiu sangat cocok bagi pengunjung yang hobi berburu foto atau video. Selain foto lansekap, banyak juga spot yang Instagramable. Agar mendapatkan foto dengan suasana maksimal, pengunjung bisa bersiap mengambil foto saat sunset atau sunrise. Sinar matahari yang bertebaran di deretan karang membuat pemandangan semakin menawan.
     </span>
 </div>
 @endsection

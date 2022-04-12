@@ -12,12 +12,12 @@
 
 @section('detail')
 <div class="description">
-    Air Terjun Curup Gangsa adalah <span id="dots">...</span>
+    Air Terjun Curup Gangsa merupakan salah satu destinasi <span id="dots">...</span>
 
     <span id="more">
-        A union territory, the political administration of the NCT of Delhi today more closely resembles that of a state of India, with its own legislature, high court and an executive council of ministers headed by a Chief Minister. New Delhi is jointly administered by the federal government of India and the local government of Delhi, and serves as the capital of the nation as well as the NCT of Delhi. Delhi hosted the inaugural 1951 Asian Games, 1982 Asian Games, 1983 NAM Summit, 2010 Men's Hockey World Cup, 2010 Commonwealth Games, 2012 BRICS Summit and was one of the major host cities of the 2011 Cricket World Cup.
-
-        Delhi is also the centre of the National Capital Region (NCR), which is a unique 'interstate regional planning' area created by the National Capital Region Planning Board Act of 1985.
+        tempat wisata yang sangat populer di Way Kanan Lampung.
+        Nama ‘Gangsa’ berasal dari legenda masyarakat yang artinya bunyi gemericik, air terjun ini seperti bunyi seruling Gangsa. Seruling Gangsa merupakan seruling yang terbuat dari bambu yang umum ditetapkan oleh zaman dahulu. Maka dari itu bunyi ini di namakan Air Terjun Curup Gangsa hingga saat ini.
+        Air terjun Curup Gangsa terletak di dusun Tanjung Jaya, Kampung Kota Way, Kecamatan Kasui, Kabupaten Way Kanan.
     </span>
 </div>
 @endsection
