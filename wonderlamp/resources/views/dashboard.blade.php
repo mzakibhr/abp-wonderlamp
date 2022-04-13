@@ -8,7 +8,6 @@
     <title>WondeLamp : Wonderful Lampung</title>
     <link rel="icon" href="image\Wonderlamp.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/0.0.0-insiders.4a070ac/tailwind.min.css">
-    <!-- <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.1/dist/tailwind.min.css" rel="stylesheet" type="text/css" /> -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@1.10.0/dist/full.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="{{asset('css/style.css')}}">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -23,11 +22,12 @@
             <span class="ml-3 text-xl">Wonderful Lampung</span>
         </a>
         <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
-            <a href="#intro" class="mr-10 hover:text-white-900">Tentang</a>
-            <a href="#photo" class="mr-10 hover:text-white-900">Galeri</a>
-            <a href="#contact" class="mr-10 hover:text-white-900">Peta</a>
+            <a href="#tentang" class="mr-10 hover:text-white-900">Tentang</a>
+            <a href="#galeri" class="mr-10 hover:text-white-900">Galeri</a>
+            <a href="#wisata" class="mr-10 hover:text-white-900">Wisata</a>
+            <a href="#peta" class="mr-10 hover:text-white-900">Peta</a>
+            <a href="#kontak" class="mr-10 hover:text-white-900">Kontak</a>
         </nav>
-        <!-- <button class="w-32 p-2 rounded-2xl focus:outline-none bg-red-200 " onclick="search()">Search</button> -->
 
     </div>
 </header>
@@ -40,7 +40,7 @@
             </form>
         </div>
 
-        <section id="intro" class="text-white-600 body-font">
+        <section id="tentang" class="text-white-600 body-font">
             <div class="container px-5 py-24 mx-auto flex flex-wrap">
                 <div class="flex w-full mb-20 flex-wrap flex-col items-center">
                     <h1>Wonderful Lampung</h1>
@@ -54,6 +54,10 @@
                     </p>
                     <button id="readmore" class="underline text-blue-500 p-2 w-28 m-1">Read more</button>
                 </div>
+            </div>
+        </section>
+        <section id="galeri" class="text-white-600 body-font">
+            <div class="container px-5 py-24 mx-auto flex flex-wrap">
                 <div class="flex flex-wrap md:-m-2 -m-1">
                     <div class="flex flex-wrap w-1/2">
                         <div class="md:p-2 p-1 w-1/2">
@@ -80,298 +84,196 @@
                 </div>
             </div>
         </section>
+    </div>
 
-        <section id="photo" class="text-white-600 body-font">
-            <div class="container px-5 py-24 mx-auto">
-                <div class="flex flex-wrap -m-4">
-                    <div class="p-4 md:w-1/4">
-                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                            <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://www.itrip.id/wp-content/uploads/2021/04/Pulau-Pahawang-Lampung.jpg" alt="blog">
-                            <div class="p-6">
-                                <!-- <h2 class="tracking-widest text-xs title-font font-medium text-white-400 mb-1">CATEGORY</h2> -->
-                                <h1 class="title-font text-lg font-medium text-white-900 mb-3">Pulau Pahawang</h1>
-                                <p class="leading-relaxed mb-3">Pulau Pahawang terkenal dengan keindahan pantai dan bawah lautnya.
-                                    Pulau Pahawang masuk wilayah Kecamatan Punduh Pidada, Kabupaten Pesawaran, Provinsi Lampung.</p>
-                                <div class="flex items-center flex-wrap ">
-                                    <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0" href="/pulaupahawang">Learn More
-                                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                            <path d="M5 12h14"></path>
-                                            <path d="M12 5l7 7-7 7"></path>
-                                        </svg>
-                                    </a>
-                                    <span class="text-white-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
-                                        <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
-                                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
-                                            <circle cx="12" cy="12" r="3"></circle>
-                                        </svg>1.2K
-                                    </span>
-                                    <span class="text-white-400 inline-flex items-center leading-none text-sm">
-                                        <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
-                                            <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
-                                            </path>
-                                        </svg>6
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="p-4 md:w-1/4">
-                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                            <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://images.bernas.id/public/foto_news/image_news_535/01458097105Taman-Nasional-Way-Kambas%20(www.liburmulu.com).jpg" alt="blog">
-                            <div class="p-6">
-                                <!-- <h2 class="tracking-widest text-xs title-font font-medium text-white-400 mb-1">CATEGORY</h2> -->
-                                <h1 class="title-font text-lg font-medium text-white-900 mb-3">Taman Nasional Way Kambas</h1>
-                                <p class="leading-relaxed mb-3">Taman Nasional Way Kambas (TNWK) adalah taman nasional perlindungan gajah yang terletak di daerah Lampung tepatnya di Kecamatan Labuhan Ratu, Lampung Timur.</p>
-                                <div class="flex items-center flex-wrap">
-                                    <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0" href="/waykambas">Learn More
-                                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                            <path d="M5 12h14"></path>
-                                            <path d="M12 5l7 7-7 7"></path>
-                                        </svg>
-                                    </a>
-                                    <span class="text-white-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
-                                        <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
-                                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
-                                            <circle cx="12" cy="12" r="3"></circle>
-                                        </svg>1.2K
-                                    </span>
-                                    <span class="text-white-400 inline-flex items-center leading-none text-sm">
-                                        <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
-                                            <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
-                                            </path>
-                                        </svg>6
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="p-4 md:w-1/4">
-                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                            <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://bappelitbang.tanggamus.go.id/assets/uploads/berita/20191230112352_pantai-gigi-hiu-kabupaten-tanggamus-provinsi-lampu.jpeg" alt="blog">
-                            <div class="p-6">
-                                <!-- <h2 class="tracking-widest text-xs title-font font-medium text-white-400 mb-1">CATEGORY</h2> -->
-                                <h1 class="title-font text-lg font-medium text-white-900 mb-3">Pantai Karang Gigi Hiu</h1>
-                                <p class="leading-relaxed mb-3">Di pantai ini pengunjung dijamin akan terpana melihat barisan batu karang lancip yang tertata dan terbentuk secara alami. Setiap kali ombak menerpa batu tersebut, akan terdengar suara pesona pantai yang alami dan menenangkan diri.</p>
-                                <div class="flex items-center flex-wrap ">
-                                    <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0" href="/gigihiu">Learn More
-                                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                            <path d="M5 12h14"></path>
-                                            <path d="M12 5l7 7-7 7"></path>
-                                        </svg>
-                                    </a>
-                                    <span class="text-white-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
-                                        <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
-                                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
-                                            <circle cx="12" cy="12" r="3"></circle>
-                                        </svg>1.2m
-                                    </span>
-                                    <span class="text-white-400 inline-flex items-center leading-none text-sm">
-                                        <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
-                                            <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
-                                            </path>
-                                        </svg>6
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="p-4 md:w-1/4">
-                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                            <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://1.bp.blogspot.com/-6CC8TBqco6w/Xq918IRDCwI/AAAAAAAAATU/EjPdR-TWD1IMcZHPMV_7f5_AIXNJoFQpACNcBGAsYHQ/w1200-h630-p-k-no-nu/20200504_084728.png" alt="blog">
-                            <div class="p-6">
-                                <!-- <h2 class="tracking-widest text-xs title-font font-medium text-white-400 mb-1"></h2> -->
-                                <h1 class="title-font text-lg font-medium text-white-900 mb-3">Air Terjun Curup Gangsa</h1>
-                                <p class="leading-relaxed mb-3">Air Terjun Curup Gangsa merupakan salah satu destinasi tempat wisata yang sangat populer di Way Kanan Lampung.</p>
-                                <div class="flex items-center flex-wrap ">
-                                    <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0" href="/curupgangsa">Learn More
-                                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                            <path d="M5 12h14"></path>
-                                            <path d="M12 5l7 7-7 7"></path>
-                                        </svg>
-                                    </a>
-                                    <span class="text-white-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
-                                        <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
-                                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
-                                            <circle cx="12" cy="12" r="3"></circle>
-                                        </svg>1.2k
-                                    </span>
-                                    <span class="text-white-400 inline-flex items-center leading-none text-sm">
-                                        <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
-                                            <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
-                                            </path>
-                                        </svg>6
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="flex flex-wrap -m-4">
-                    <div class="p-4 md:w-1/4">
-                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                            <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://kelilinglampung.net/wp-content/uploads/2021/01/Foto-Gambar-Gunung-Pesagi-Lampung-Barat-andi_hendri-pariwisata_lampungbarat.jpg" alt="blog">
-                            <div class="p-6">
-                                <!-- <h2 class="tracking-widest text-xs title-font font-medium text-white-400 mb-1">CATEGORY</h2> -->
-                                <h1 class="title-font text-lg font-medium text-white-900 mb-3">Gunung Pesagi</h1>
-                                <p class="leading-relaxed mb-3">Gunung Pesagi adalah gunung tak aktif salah satu dari 5 Gunung bersejarah yang ada di provinsi Lampung, Indonesia.</p>
-                                <div class="flex items-center flex-wrap ">
-                                    <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0" href="/gunungpesagi">Learn More
-                                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                            <path d="M5 12h14"></path>
-                                            <path d="M12 5l7 7-7 7"></path>
-                                        </svg>
-                                    </a>
-                                    <span class="text-white-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
-                                        <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
-                                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
-                                            <circle cx="12" cy="12" r="3"></circle>
-                                        </svg>1.2K
-                                    </span>
-                                    <span class="text-white-400 inline-flex items-center leading-none text-sm">
-                                        <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
-                                            <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
-                                            </path>
-                                        </svg>6
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="p-4 md:w-1/4">
-                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                            <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://cdn-2.tstatic.net/travel/foto/bank/images/teluk-kiluan_20160904_230606.jpg" alt="blog">
-                            <div class="p-6">
-                                <!-- <h2 class="tracking-widest text-xs title-font font-medium text-white-400 mb-1">CATEGORY</h2> -->
-                                <h1 class="title-font text-lg font-medium text-white-900 mb-3">Teluk Kilauan</h1>
-                                <p class="leading-relaxed mb-3">Teluk Kilauan merupakan surganya wisata bahari di Lampung tepatnya di Kabupaten Tenggamus, karena disini terdapat beberapa objek wisata yang sungguh mengagumkan. </p>
-                                <div class="flex items-center flex-wrap">
-                                    <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0" href="/telukkilauan">Learn More
-                                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                            <path d="M5 12h14"></path>
-                                            <path d="M12 5l7 7-7 7"></path>
-                                        </svg>
-                                    </a>
-                                    <span class="text-white-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
-                                        <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
-                                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
-                                            <circle cx="12" cy="12" r="3"></circle>
-                                        </svg>1.2K
-                                    </span>
-                                    <span class="text-white-400 inline-flex items-center leading-none text-sm">
-                                        <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
-                                            <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
-                                            </path>
-                                        </svg>6
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="p-4 md:w-1/4">
-                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                            <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://www.andalastourism.com/wp-content/uploads/2021/10/Pantai-Tanjung-Setia.jpg" alt="blog">
-                            <div class="p-6">
-                                <!-- <h2 class="tracking-widest text-xs title-font font-medium text-white-400 mb-1">CATEGORY</h2> -->
-                                <h1 class="title-font text-lg font-medium text-white-900 mb-3">Pantai Tanjung Setia</h1>
-                                <p class="leading-relaxed mb-3">Pantai Tanjung Setia merupakan salah satu obyek wisata yang terletak di Provinsi Lampung. Pantai ini terkenal dengan ombaknya yang bagus untuk digunakan berselancar.</p>
-                                <div class="flex items-center flex-wrap ">
-                                    <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0" href="/pantaitanjung">Learn More
-                                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                            <path d="M5 12h14"></path>
-                                            <path d="M12 5l7 7-7 7"></path>
-                                        </svg>
-                                    </a>
-                                    <span class="text-white-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
-                                        <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
-                                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
-                                            <circle cx="12" cy="12" r="3"></circle>
-                                        </svg>1.2m
-                                    </span>
-                                    <span class="text-white-400 inline-flex items-center leading-none text-sm">
-                                        <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
-                                            <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
-                                            </path>
-                                        </svg>6
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="p-4 md:w-1/4">
-                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                            <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://media.istockphoto.com/photos/the-statue-of-thiruvalluvar-and-swami-vivekananda-memorial-in-picture-id1256543367?k=6&m=1256543367&s=612x612&w=0&h=bw1Sic9b0o6cM6SWWw6QVkVCfovh4bLrJ8d4YjnX-iM=" alt="blog">
-                            <div class="p-6">
-                                <!-- <h2 class="tracking-widest text-xs title-font font-medium text-white-400 mb-1">CATEGORY</h2> -->
-                                <h1 class="title-font text-lg font-medium text-white-900 mb-3">Danau Ranau</h1>
-                                <p class="leading-relaxed mb-3">Danau Ranau adalah danau terbesar kedua di Sumatra setelah Danau Toba. Danau ini terletak di perbatasan Kabupaten Lampung Barat Provinsi Lampung dan Kabupaten Ogan Komering Ulu Selatan.</p>
-                                <div class="flex items-center flex-wrap ">
-                                    <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0" href="/danauranau">Learn More
-                                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                            <path d="M5 12h14"></path>
-                                            <path d="M12 5l7 7-7 7"></path>
-                                        </svg>
-                                    </a>
-                                    <span class="text-white-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
-                                        <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
-                                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
-                                            <circle cx="12" cy="12" r="3"></circle>
-                                        </svg>2.2k
-                                    </span>
-                                    <span class="text-white-400 inline-flex items-center leading-none text-sm">
-                                        <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
-                                            <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
-                                            </path>
-                                        </svg>6
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
 
-        <section id="contact" class="text-black body-font relative">
-            <div class="absolute inset-0 bg-gray-300">
-                <iframe width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0" title="map" scrolling="no" src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=lampung&ie=UTF8&t=&z=14&iwloc=B&output=embed" style="filter: contrast(1.2) opacity(3);"></iframe>
-            </div>
-            <div class="container px-5 py-24 mx-auto flex">
-                <div class="lg:w-1/3 md:w-1/2 bg-white rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10 shadow-md">
-                    <h2 class="text-black text-lg mb-1 font-medium title-font">Hubungi Kami</h2>
-                    <form>
-                        <div class="relative mb-4">
-                            <label for="text" class="leading-7 text-sm text-black">Nama</label>
-                            <input type="text" id="name" name="name" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-white-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+    <section id="wisata" class="text-white-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-wrap -m-4">
+                <div class="p-4 md:w-1/4">
+                    <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                        <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://www.itrip.id/wp-content/uploads/2021/04/Pulau-Pahawang-Lampung.jpg" alt="blog">
+                        <div class="p-6">
+                            <h1 class="title-font text-lg font-medium text-white-900 mb-3">Pulau Pahawang</h1>
+                            <p class="leading-relaxed mb-3">Pulau Pahawang terkenal dengan keindahan pantai dan bawah lautnya.
+                                Pulau Pahawang masuk wilayah Kecamatan Punduh Pidada, Kabupaten Pesawaran, Provinsi Lampung.</p>
+                            <div class="flex items-center flex-wrap ">
+                                <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0" href="/pulaupahawang">Learn More
+                                    <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M5 12h14"></path>
+                                        <path d="M12 5l7 7-7 7"></path>
+                                    </svg>
+                                </a>
+                            </div>
                         </div>
-                        <div class="relative mb-4">
-                            <label for="number" class="leading-7 text-sm text-black">No Telepon</label>
-                            <input type="text" id="number" name="number" maxlength="10" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-white-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                    </div>
+                </div>
+                <div class="p-4 md:w-1/4">
+                    <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                        <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://images.bernas.id/public/foto_news/image_news_535/01458097105Taman-Nasional-Way-Kambas%20(www.liburmulu.com).jpg" alt="blog">
+                        <div class="p-6">
+                            <h1 class="title-font text-lg font-medium text-white-900 mb-3">Taman Nasional Way Kambas</h1>
+                            <p class="leading-relaxed mb-3">Taman Nasional Way Kambas (TNWK) adalah taman nasional perlindungan gajah yang terletak di daerah Lampung tepatnya di Kecamatan Labuhan Ratu, Lampung Timur.</p>
+                            <div class="flex items-center flex-wrap">
+                                <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0" href="/waykambas">Learn More
+                                    <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M5 12h14"></path>
+                                        <path d="M12 5l7 7-7 7"></path>
+                                    </svg>
+                                </a>
+                            </div>
                         </div>
-                        <div class="relative mb-4">
-                            <label for="email" class="leading-7 text-sm text-black">Email</label>
-                            <input type="email" id="email" name="email" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-white-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                    </div>
+                </div>
+                <div class="p-4 md:w-1/4">
+                    <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                        <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://bappelitbang.tanggamus.go.id/assets/uploads/berita/20191230112352_pantai-gigi-hiu-kabupaten-tanggamus-provinsi-lampu.jpeg" alt="blog">
+                        <div class="p-6">
+                            <h1 class="title-font text-lg font-medium text-white-900 mb-3">Pantai Karang Gigi Hiu</h1>
+                            <p class="leading-relaxed mb-3">Di pantai ini pengunjung dijamin akan terpana melihat barisan batu karang lancip yang tertata dan terbentuk secara alami. Setiap kali ombak menerpa batu tersebut, akan terdengar suara pesona pantai yang alami dan menenangkan diri.</p>
+                            <div class="flex items-center flex-wrap ">
+                                <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0" href="/gigihiu">Learn More
+                                    <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M5 12h14"></path>
+                                        <path d="M12 5l7 7-7 7"></path>
+                                    </svg>
+                                </a>
+                            </div>
                         </div>
-                        <div class="relative mb-4">
-                            <label for="message" class="leading-7 text-sm text-black">Pesan</label>
-                            <textarea id="message" name="message" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-white-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+                    </div>
+                </div>
+                <div class="p-4 md:w-1/4">
+                    <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                        <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://1.bp.blogspot.com/-6CC8TBqco6w/Xq918IRDCwI/AAAAAAAAATU/EjPdR-TWD1IMcZHPMV_7f5_AIXNJoFQpACNcBGAsYHQ/w1200-h630-p-k-no-nu/20200504_084728.png" alt="blog">
+                        <div class="p-6">
+                            <h1 class="title-font text-lg font-medium text-white-900 mb-3">Air Terjun Curup Gangsa</h1>
+                            <p class="leading-relaxed mb-3">Air Terjun Curup Gangsa merupakan salah satu destinasi tempat wisata yang sangat populer di Way Kanan Lampung.</p>
+                            <div class="flex items-center flex-wrap ">
+                                <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0" href="/curupgangsa">Learn More
+                                    <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M5 12h14"></path>
+                                        <path d="M12 5l7 7-7 7"></path>
+                                    </svg>
+                                </a>
+                            </div>
                         </div>
-                        <button class="text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Submit</button>
-                    </form>
+                    </div>
                 </div>
             </div>
-        </section>
+            <div class="flex flex-wrap -m-4">
+                <div class="p-4 md:w-1/4">
+                    <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                        <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://kelilinglampung.net/wp-content/uploads/2021/01/Foto-Gambar-Gunung-Pesagi-Lampung-Barat-andi_hendri-pariwisata_lampungbarat.jpg" alt="blog">
+                        <div class="p-6">
+                            <h1 class="title-font text-lg font-medium text-white-900 mb-3">Gunung Pesagi</h1>
+                            <p class="leading-relaxed mb-3">Gunung Pesagi adalah gunung tak aktif salah satu dari 5 Gunung bersejarah yang ada di provinsi Lampung, Indonesia.</p>
+                            <div class="flex items-center flex-wrap ">
+                                <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0" href="/gunungpesagi">Learn More
+                                    <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M5 12h14"></path>
+                                        <path d="M12 5l7 7-7 7"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-4 md:w-1/4">
+                    <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                        <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://cdn-2.tstatic.net/travel/foto/bank/images/teluk-kiluan_20160904_230606.jpg" alt="blog">
+                        <div class="p-6">
+                            <h1 class="title-font text-lg font-medium text-white-900 mb-3">Teluk Kilauan</h1>
+                            <p class="leading-relaxed mb-3">Teluk Kilauan merupakan surganya wisata bahari di Lampung tepatnya di Kabupaten Tenggamus, karena disini terdapat beberapa objek wisata yang sungguh mengagumkan. </p>
+                            <div class="flex items-center flex-wrap">
+                                <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0" href="/telukkilauan">Learn More
+                                    <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M5 12h14"></path>
+                                        <path d="M12 5l7 7-7 7"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-4 md:w-1/4">
+                    <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                        <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://www.andalastourism.com/wp-content/uploads/2021/10/Pantai-Tanjung-Setia.jpg" alt="blog">
+                        <div class="p-6">
+                            <h1 class="title-font text-lg font-medium text-white-900 mb-3">Pantai Tanjung Setia</h1>
+                            <p class="leading-relaxed mb-3">Pantai Tanjung Setia merupakan salah satu obyek wisata yang terletak di Provinsi Lampung. Pantai ini terkenal dengan ombaknya yang bagus untuk digunakan berselancar.</p>
+                            <div class="flex items-center flex-wrap ">
+                                <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0" href="/pantaitanjung">Learn More
+                                    <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M5 12h14"></path>
+                                        <path d="M12 5l7 7-7 7"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-4 md:w-1/4">
+                    <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                        <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://media.istockphoto.com/photos/the-statue-of-thiruvalluvar-and-swami-vivekananda-memorial-in-picture-id1256543367?k=6&m=1256543367&s=612x612&w=0&h=bw1Sic9b0o6cM6SWWw6QVkVCfovh4bLrJ8d4YjnX-iM=" alt="blog">
+                        <div class="p-6">
+                            <h1 class="title-font text-lg font-medium text-white-900 mb-3">Danau Ranau</h1>
+                            <p class="leading-relaxed mb-3">Danau Ranau adalah danau terbesar kedua di Sumatra setelah Danau Toba. Danau ini terletak di perbatasan Kabupaten Lampung Barat Provinsi Lampung dan Kabupaten Ogan Komering Ulu Selatan.</p>
+                            <div class="flex items-center flex-wrap ">
+                                <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0" href="/danauranau">Learn More
+                                    <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M5 12h14"></path>
+                                        <path d="M12 5l7 7-7 7"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="peta" class="text-black body-font relative">
+        <div class="absolute inset-0 bg-gray-300">
+            <iframe width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0" title="map" scrolling="no" src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=lampung&ie=UTF8&t=&z=14&iwloc=B&output=embed" style="filter: contrast(1.2) opacity(3);"></iframe>
+        </div>
+        <div class="container px-5 py-24 mx-auto flex">
+            <div class="lg:w-1/3 md:w-1/2 bg-white rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10 shadow-md">
+                <h2 class="text-black text-lg mb-1 font-medium title-font">Hubungi Kami</h2>
+                <form>
+                    <div class="relative mb-4">
+                        <label for="text" class="leading-7 text-sm text-black">Nama</label>
+                        <input type="text" id="name" name="name" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-white-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                    </div>
+                    <div class="relative mb-4">
+                        <label for="number" class="leading-7 text-sm text-black">No Telepon</label>
+                        <input type="text" id="number" name="number" maxlength="10" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-white-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                    </div>
+                    <div class="relative mb-4">
+                        <label for="email" class="leading-7 text-sm text-black">Email</label>
+                        <input type="email" id="email" name="email" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-white-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                    </div>
+                    <div class="relative mb-4">
+                        <label for="message" class="leading-7 text-sm text-black">Pesan</label>
+                        <textarea id="message" name="message" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-white-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+                    </div>
+                    <button class="text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
     </div>
 </body>
 <script src="js/index.js"></script>
 <script src="js/validate.js"></script>
-<footer class="text-white-600 body-font foot">
+<footer id="kontak" class="text-white-600 body-font foot">
     <div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
         <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:mt-0 mt-10">
             <a class="flex title-font font-medium items-center md:justify-start justify-center text-white-900">
                 <img class="logo" src="image\Wonderlamp.png"></img>
                 <span class="ml-3 text-xl">Wonderlamp</span>
             </a>
-            <p class="mt-2 text-sm text-white-500">Your Tourism guide for best ever places you can think of visiting</p>
+            <p class="mt-2 text-sm text-white-500">Sebuah Website yang Memperkenalkan Wisata Lampung</p>
         </div>
         <div class="flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left text-center order-first">
             <div class="lg:w-1/4 md:w-1/2 w-full px-4">

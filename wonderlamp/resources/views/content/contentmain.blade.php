@@ -87,7 +87,7 @@
                     <img class="logo" src="image\Wonderlamp.png"></img>
                     <span class="ml-3 text-xl">Wonderlamp</span>
                 </a>
-                <p class="mt-2 text-sm text-white-500">Your Tourism guide for best ever places you can think of visiting</p>
+                <p class="mt-2 text-sm text-white-500">Sebuah Website yang Memperkenalkan Wisata Lampung</p>
             </div>
             <div class="flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left text-center order-first">
                 <div class="lg:w-1/4 md:w-1/2 w-full px-4">
