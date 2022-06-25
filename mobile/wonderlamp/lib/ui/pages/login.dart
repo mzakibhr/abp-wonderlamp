@@ -1,6 +1,5 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:wonderlamp/ui/pages/forgot_password.dart';
 import 'package:wonderlamp/ui/pages/signup.dart';
 import 'package:wonderlamp/ui/pages/start.dart';
 
@@ -124,7 +123,7 @@ class _LoginState extends State<Login> {
                 ),
               ),
               Container(
-                margin: EdgeInsets.only(left: 60.0),
+                margin: EdgeInsets.only(left: 0.0),
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
@@ -142,20 +141,6 @@ class _LoginState extends State<Login> {
                       child: Text(
                         'Login',
                         style: TextStyle(fontSize: 18.0),
-                      ),
-                    ),
-                    TextButton(
-                      onPressed: () => {
-                        Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                            builder: (context) => ForgotPassword(),
-                          ),
-                        )
-                      },
-                      child: Text(
-                        'Forgot Password ?',
-                        style: TextStyle(fontSize: 14.0),
                       ),
                     ),
                   ],
