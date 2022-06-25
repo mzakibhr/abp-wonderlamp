@@ -22,7 +22,7 @@ var i=0;
                 f1.image1.src=arr[i];
                 i++;
             }
-            setTimeout("change()",2000);
+            setTimeout("changes()",2000);
         }
         window.onload=change;
 

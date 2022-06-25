@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "396258024415",
+    "project_id": "flutterauth-6ff17",
+    "storage_bucket": "flutterauth-6ff17.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:396258024415:android:0778b83d1778b4db11426a",
+        "android_client_info": {
+          "package_name": "com.company.wonderlamp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "396258024415-ofut9ar726ec9ektplapni7mo37lhvfb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7fxUxtO_FuFhzAjSEOfBLtfpovAs5RDM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "396258024415-ofut9ar726ec9ektplapni7mo37lhvfb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
