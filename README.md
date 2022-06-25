@@ -1,3 +1,3 @@
 # abp-wonderlamp
 
-Sebuah web review tempat wisata di Lampung
+Sebuah review tempat wisata di Lampung
