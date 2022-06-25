@@ -295,7 +295,7 @@ class detailWaykambas extends StatelessWidget {
                                       height: 12,
                                     ),
                                     Text(
-                                      'Pulau Pahawang terkenal dengan keindahan pantai dan bawah lautnya. Sudah banyak yang mengakui pesonanya, baik wisatawan nusantara maupun wisatawan lokal LampungPulau Pahawang masuk wilayah Kecamatan Punduh Pidada, Kabupaten Pesawaran, Provinsi Lampung. Tepatnya berada di Teluk Lampung.',
+                                      'Pulau Pahawang terkenal dengan keindahan pantai dan bawah lautnya. Sudah banyak yang mengakui pesonanya, baik wisatawan nusantara maupun wisatawan lokal Lampung, Pulau Pahawang masuk wilayah Kecamatan Punduh Pidada, Kabupaten Pesawaran, Provinsi Lampung. Tepatnya berada di Teluk Lampung.',
                                       textAlign: TextAlign.justify,
                                       style: yellowText.copyWith(
                                         fontSize: 14,
